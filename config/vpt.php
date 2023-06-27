@@ -4,12 +4,12 @@ return [
     "privacyStatements" => [
         "default" => [
             "de" => <<<EOD
-            Ich bin einverstanden, dass mich der GBKZ und die UNIA auf dem Laufenden halten. <a class="underline" href="https://www.lohnzumleben-zuerich.ch/datenschutz" target="_blank">Mehr dazu in unseren Datenschutzbestimmungen</a>.
+            Ich bin einverstanden, dass mich der GBKZ und die Unia auf dem Laufenden halten. <a class="underline" href="https://www.lohnzumleben-zuerich.ch/datenschutz" target="_blank">Mehr dazu in unseren Datenschutzbestimmungen</a>.
             EOD,
         ],
         "unia" => [
             "de" => <<<EOD
-            Ich bin einverstanden, dass mich die UNIA auf dem Laufenden hält. <a class="underline" href="https://www.unia.ch/de/datenschutz" target="_blank">Mehr dazu in unseren Datenschutzbestimmungen</a>.
+            Ich bin einverstanden, dass mich die Unia auf dem Laufenden hält. <a class="underline" href="https://www.unia.ch/de/datenschutz" target="_blank">Mehr dazu in unseren Datenschutzbestimmungen</a>.
         EOD,
         ],
         "gbkz" => [
