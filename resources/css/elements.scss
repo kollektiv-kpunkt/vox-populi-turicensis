@@ -6,10 +6,25 @@
 }
 
 /**
+* Card
+*/
+.vpt-card {
+    border: 0.5px solid theme('colors.white');
+    border-top: 10px solid theme('colors.white');
+    padding-top: calc(1.5rem - 10px) !important;
+    @apply bg-primary text-white p-2 md:p-6;
+
+    @media (max-width: 767px) {
+        border-top: 5px solid theme('colors.white');
+        padding-top: calc(1rem - 5px);
+    }
+}
+
+/**
 * Button
 */
 .vpt-button {
-    @apply inline-block px-4 py-2 text-white bg-primary text-center;
+    @apply inline-block px-4 py-2 text-white bg-primary text-center font-bold;
 }
 
 /**
