@@ -5,9 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         @if ($title)
-            <title>{{$title}} - {{__("sr.site.title")}}</title>
+            <title>{{$title}} - {{__("vpt.site.title")}}</title>
         @else
-            <title>{{__("sr.site.title")}}</title>
+            <title>{{__("vpt.site.title")}}</title>
         @endif
 
         <x-OG />

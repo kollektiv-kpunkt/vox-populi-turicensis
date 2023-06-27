@@ -9,6 +9,7 @@ return [
 
     "site" => [
         "title" => "Unterschreibe unsere Petition",
+        "masthead" => "Volksentscheide müssen akzeptiert werden",
         "url" => "https://www.stop-rammstein.ch",
     ],
     "form" => [

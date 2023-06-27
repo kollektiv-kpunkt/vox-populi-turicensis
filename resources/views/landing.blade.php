@@ -1,9 +1,14 @@
 <?php
 $parser = new Illuminate\Support\Str;
 ?>
-<x-app-layout :title="__('vpt.landing.title')">
+<x-app-layout :title="__('vpt.site.masthead')">
     <div class="vpt-container vpt-container__md">
         <x-app-logo class="w-32 m-auto mb-8 block"/>
+        @if (request()->session()->get('success') === true)
+            <div class="vpt-page-heroine__alert--success bg-green-200 border-green-700 border text-green-700 font-bold p-4 mb-6 sticky top-0 z-50">
+                <p>{{__("vpt.form.successmessage")}}</p>
+            </div>
+        @endif
         <h1 class="text-3xl md:text-4xl lg:text-5xl text-center vpt-adieu mb-4">Volksentscheide respektieren!</h1>
         <div class="vpt-addressants flex gap-12 md:flex-nowrap flex-wrap mb-8">
             <div class="vpt-addressant w-1/2">
@@ -26,7 +31,7 @@ $parser = new Illuminate\Support\Str;
             @endphp
         </div>
         <x-initial-signer />
-        <p id="show-all-signers" class="underline cursor-pointer mb-12">und {{ supporterCount() - 10 }} weitere Unterzeichner*innen</p>
+        <p id="show-all-signers" class="underline cursor-pointer mt-4 mb-12">und {{ supporterCount() - 10 }} weitere Unterzeichner*innen</p>
         <x-logos />
         <x-form />
         <x-social-share/>
