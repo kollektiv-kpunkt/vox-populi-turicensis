@@ -16,7 +16,7 @@ $parser = new Illuminate\Support\Str;
         @endif
         <h1 class="text-3xl md:text-4xl lg:text-5xl text-center vpt-adieu mb-4">Volksentscheide respektieren!</h1>
         <div class="vpt-card my-12">
-            <h2 class="text-2xl font-bold mb-4">Akzeptieren Sie die Demokratie,<br>Frau Barandun und Herr Anwander!</h2>
+            <h2 class="text-2xl font-bold mb-4">Akzeptieren Sie die demokratische Entscheide,<br>Frau Barandun und Herr Anwander!</h2>
             <p class="mb-4">Wir haben abgestimmt. Und die Stimmbevölkerung hat sich entschieden. Doch der Gewerbeverband und die Arbeitgebervereinigung wollen die Volksentscheide nicht akzeptieren. Mit haltlosen Rekursen versuchen sie die Einführung der Mindestlöhne in Zürich und Winterthur um Jahre zu verzögern. <b>So funktioniert unsere Demokratie nicht!</b> Mit diesem Brief fordern wir sie dazu auf, ihre Niederlage zu akzeptieren und demokratische Rechte nicht weiter zu missbrauchen.</p>
             <x-form />
         </div>
