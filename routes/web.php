@@ -20,12 +20,7 @@ Route::get('/', function () {
 })->name('landing');
 
 Route::get("s/{source}", function($source) {
-    setcookie("sr_source", $source, time() + (86400 * 5), "/");
-    return redirect("/");
-});
-
-Route::get("l/{locale}", function($locale) {
-    setcookie("locale", $locale, time() + (86400 * 5), "/");
+    setcookie("vpt_source", $source, time() + (86400 * 5), "/");
     return redirect("/");
 });
 

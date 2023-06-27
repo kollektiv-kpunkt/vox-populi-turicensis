@@ -10,7 +10,7 @@ return [
     "site" => [
         "title" => "Unterschreibe unsere Petition",
         "masthead" => "Volksentscheide müssen akzeptiert werden",
-        "url" => "https://www.volksentscheide-akzeptieren.ch",
+        "url" => "https://www.volksentscheide-respektieren.ch",
     ],
     "form" => [
         "title" => "Füge deinen Namen hinzu!",
