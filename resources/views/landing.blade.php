@@ -41,8 +41,7 @@ $parser = new Illuminate\Support\Str;
             @endphp
         </div>
         <x-initial-signer />
-        <p id="show-all-signers" class="underline cursor-pointer mt-4 mb-12">und {{ supporterCount() - 10 }} weitere Unterzeichner*innen</p>
-        <x-logos />
+        <p id="show-all-signers" class="underline cursor-pointer mt-4 mb-12">und {{ supporterCount() - 10 }} weitere Unterzeichnende</p>
         <x-social-share/>
     </div>
 </x-app-layout>
