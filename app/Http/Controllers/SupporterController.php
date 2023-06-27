@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Supporter;
+use App\Providers\TrackerProvider;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
 
@@ -100,6 +101,9 @@ class SupporterController extends Controller
      */
     public function storeFromPetition(Request $request)
     {
+        $tracker = new TrackerProvider();
+        $source = $_COOKIE["vpt_source"] ?? "unknown source";
+        $tracker->doTrackEvent("petition", "signed", $source);
         $validated = $request->validate([
             'email' => 'required|email|unique:supporters,email',
             "data" => "required|array",
