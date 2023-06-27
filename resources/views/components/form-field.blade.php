@@ -35,33 +35,33 @@ if ($attributes->get('classes')) {
     $classes = [];
     $classNames = explode(" ", $attributes->get('classes'));
     foreach ($classNames as $className) {
-        $classes[] = "sr-form__field--" . $className;
+        $classes[] = "vpt-form__field--" . $className;
     }
     $class = implode(" ", $classes);
 }
 
 $id = $attributes->get('id') ?? "{$name}_{$fieldId}";
 ?>
-<div class="sr-form__field sr-form__field--{{$type}} flex flex-col gap-y-1{{isset($class) ? " " . $class : ""}}">
+<div class="vpt-form__field vpt-form__field--{{$type}} flex flex-col gap-y-1{{isset($class) ? " " . $class : ""}}">
     @switch($type)
         @case("text")
-            <label for="{{$id}}" class="sr-sr-form__field__label">{{$label}}</label>
-            <input type="{{$type}}" name="{{$name}}" id="{{$id}}" placeholder="{{$placeholder}}" class="sr-sr-form__field__input" {{$required ? "required" : ""}} {{isset($value) ? "value={$value}" : ""}} />
+            <label for="{{$id}}" class="vpt-vpt-form__field__label">{{$label}}</label>
+            <input type="{{$type}}" name="{{$name}}" id="{{$id}}" placeholder="{{$placeholder}}" class="vpt-vpt-form__field__input" {{$required ? "required" : ""}} {{isset($value) ? "value={$value}" : ""}} />
             @break
         @case("email")
-            <label for="{{$id}}" class="sr-sr-form__field__label">{{$label}}</label>
-            <input type="{{$type}}" name="{{$name}}" id="{{$id}}" placeholder="{{$placeholder}}" class="sr-sr-form__field__input" {{$required ? "required" : ""}} {{isset($value) ? "value={$value}" : ""}} />
+            <label for="{{$id}}" class="vpt-vpt-form__field__label">{{$label}}</label>
+            <input type="{{$type}}" name="{{$name}}" id="{{$id}}" placeholder="{{$placeholder}}" class="vpt-vpt-form__field__input" {{$required ? "required" : ""}} {{isset($value) ? "value={$value}" : ""}} />
             @break
         @case("checkbox")
             <div class="flex">
                 <input type="hidden" name="{{$name}}" value="0">
-                <input type="{{$type}}" name="{{$name}}" id="{{$id}}" placeholder="{{$placeholder}}" {{$checked ? " checked" : ""}} class="sr-sr-form__field__input" value="1" {{$required ? "required" : ""}} />
-                <label for="{{$id}}" class="sr-sr-form__field__label text-2xs">{!! $label !!}</label>
+                <input type="{{$type}}" name="{{$name}}" id="{{$id}}" placeholder="{{$placeholder}}" {{$checked ? " checked" : ""}} class="vpt-vpt-form__field__input" value="1" {{$required ? "required" : ""}} />
+                <label for="{{$id}}" class="vpt-vpt-form__field__label text-2xs">{!! $label !!}</label>
             </div>
             @break
     @endswitch
     @error($name)
-        <div class="sr-form__field__error text-red-500">
+        <div class="vpt-form__field__error text-red-500">
             {{$message}}
         </div>
     @enderror

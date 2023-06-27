@@ -1,4 +1,4 @@
-.sr-form {
+.vpt-form {
     --cols: 2;
     --gap-x: 1rem;
     --gap-y: 0.5rem;
@@ -23,6 +23,7 @@
         &--password,
         &--number,
         &--textarea {
+
             input,
             textarea {
                 background-color: transparent;

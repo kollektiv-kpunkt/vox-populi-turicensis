@@ -11,6 +11,7 @@ return [
         "title" => "Unterschreibe unsere Petition",
         "masthead" => "Volksentscheide müssen akzeptiert werden",
         "url" => "https://www.volksentscheide-respektieren.ch",
+        "description" => "Die Rechten können es nicht lassen: Mit haltlosen Rekursen wollen sie die Einführung des Mindeslohns verhindern. Und das trotz klarem JA Resultat! Ich habe deshalb gerade einen Brief unterschrieben. Machst du auch mit?",
     ],
     "form" => [
         "title" => "Füge deinen Namen hinzu!",
@@ -72,8 +73,8 @@ return [
     "share" => [
         "title" => "Hilf mit und teile unseren Brief!",
         "sharetitle" => "Volksentscheide müssen akzeptiert werden: Unterschreibe jetzt unseren offenen Brief! ",
-        "text" => "Hoi👋\nDer Frontsänger von Rammstein, Till Lindemann, ist mit harten Vorwürfen von sexualisierter Gewalt konfrontiert. Und trotzdem soll er in Bern auftreten dürfen. Ich habe drum gerade diesen Brief unterschrieben, denn die Konzerte müssen abgesagt werden. Unterschreibst du auch?📝\n👉 https://www.stop-rammstein.ch",
-        "tweet" => "Der Frontsänger von Rammstein, Till Lindemann, ist mit harten Vorwürfen von sexualisierter Gewalt konfrontiert. Ich habe drum gerade diesen Brief unterschrieben, denn die Konzerte in Bern müssen abgesagt werden. Unterschreibst du auch?📝\n#StopRammstein 👉 https://www.stop-rammstein.ch",
+        "text" => "Hoi👋\nDer Gewerbeverband und die Arbeitgebervereinigung können es nicht lassen: Mit haltlosen und unnützen Rekursen wollen sie die Einführung des Mindeslohns verhindern. Und das trotz klarem JA Resultat! Ich habe deshalb gerade einen Brief unterschrieben. Machst du auch mit?📝\n👉 https://volksentscheide-respektieren.ch",
+        "tweet" => "Die Rechten können es nicht lassen: Mit haltlosen Rekursen wollen sie die Einführung des Mindeslohns verhindern. Und das trotz klarem JA Resultat! Ich habe deshalb gerade einen Brief unterschrieben. Machst du auch mit?📝\n#DemokratieRespektieren 👉 https://volksentscheide-respektieren.ch",
         "buttons" => [
             "whatsapp" => "Auf WhatsApp teilen",
             "telegram" => "Auf Telegram teilen",

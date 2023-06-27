@@ -1,8 +1,8 @@
-<div class="sr-signup-form sr-section" id="petition">
-    <div class="sr-signup-form__container">
+<div class="vpt-signup-form vpt-section" id="petition">
+    <div class="vpt-signup-form__container">
         <div class="fdb-signup-form__inner">
             <h2 class="text-xl md:text-3xl font-bold mb-4">{{__("vpt.form.title")}}</h2>
-            <form action="/supporters" method="POST" class="sr-form mt-6">
+            <form action="/supporters" method="POST" class="vpt-form mt-6">
                 @foreach (__("vpt.form.fields") as $field)
                     <x-form-field :name="$field['name']" :label="$field['label']" :placeholder="$field['placeholder'] ?? ''" :required="$field['required']" :type="$field['type']" :checked="$field['checked'] ?? false" :classes="$field['class'] ?? false" />
                 @endforeach
