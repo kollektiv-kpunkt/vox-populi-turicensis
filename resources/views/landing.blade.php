@@ -17,7 +17,7 @@ $parser = new Illuminate\Support\Str;
         <h1 class="text-3xl md:text-4xl lg:text-5xl text-center vpt-adieu mb-4">Volksentscheide respektieren!</h1>
         <div class="vpt-card mt-12 mb-20">
             <h2 class="text-2xl font-bold mb-4">Akzeptieren Sie die Demokratie,<br>Frau Barandun und Herr Anwander!</h2>
-            <p class="mb-4">Wir haben abgestimmt. Und wir haben gewonnen. Und doch können es die Rechten nicht lassen: Mit haltlosen und unnützen Rekursen versuchen sie die Einführung des Mindestlohns in den grössetn Zürcher Städten zu verzögern oder gar zu verhindern. <b>So funktioniert unsere Demokratie nicht!</b> Mit diesem Brief fordern wir den Gewerbeverband und die Arbeitgebervereinigung dazu auf, ihre Niederlage zu akzeptieren.</p>
+            <p class="mb-4">Wir haben abgestimmt. Und wir haben gewonnen. Und doch können es die Rechten nicht lassen: Mit haltlosen und unnützen Rekursen versuchen sie die Einführung des Mindestlohns in den grössten Zürcher Städten zu verzögern oder gar zu verhindern. <b>So funktioniert unsere Demokratie nicht!</b> Mit diesem Brief fordern wir den Gewerbeverband und die Arbeitgebervereinigung dazu auf, ihre Niederlage zu akzeptieren.</p>
             <a href="#sign" class="vpt-button block w-full !bg-white !text-primary">Unterschreibe auch! <i class="icofont-duotone icofont-apply"></i></a>
         </div>
         <div class="vpt-addressants flex gap-12 md:flex-nowrap flex-wrap mb-8">
