@@ -14,24 +14,20 @@ $parser = new Illuminate\Support\Str;
             <p>{{__("vpt.form.errormessage")}}</p>
         </div>
         @endif
-        <h1 class="text-3xl md:text-4xl lg:text-5xl text-center vpt-adieu mb-4">Volksentscheide respektieren!</h1>
+        <h1 class="text-2xl md:text-4xl lg:text-5xl text-center vpt-adieu mb-4">Volksentscheide respektieren!</h1>
         <div class="vpt-card my-12">
-            <h2 class="text-2xl font-bold mb-4">Akzeptieren Sie demokratische Entscheide,<br>Frau Barandun und Herr Anwander!</h2>
+            <h2 class="text-2xl font-bold mb-4">Akzeptieren Sie demokratische Entscheide, Frau Barandun und Herr Anwander!</h2>
             <p class="mb-4">Wir haben abgestimmt. Und die Stimmbevölkerung hat sich entschieden. Doch der Gewerbeverband und die Arbeitgebervereinigung wollen die Volksentscheide nicht akzeptieren. Mit haltlosen Rekursen versuchen sie die Einführung der Mindestlöhne in Zürich und Winterthur um Jahre zu verzögern. <b>So funktioniert unsere Demokratie nicht!</b> Mit diesem Brief fordern wir sie dazu auf, ihre Niederlage zu akzeptieren und demokratische Rechte nicht weiter zu missbrauchen.</p>
             <x-form />
         </div>
-        <div class="vpt-addressants flex gap-12 md:flex-nowrap flex-wrap mb-8">
-            <div class="vpt-addressant w-1/2">
-                <p>
-                    <p class="text-xs">An die Präsidentin des Gewerbeverbandes der Stadt Zürich</p>
-                    <p class="mt-1"><b>Nicole Barandun-Gross</b></p>
-                </p>
+        <div class="vpt-addressants flex gap-x-12 gap-y-3 md:flex-nowrap flex-wrap mb-8">
+            <div class="vpt-addressant md:w-1/2 w-full">
+                <p class="text-xs">An die Präsidentin des Gewerbeverbandes der Stadt Zürich</p>
+                <p class="mt-1"><b>Nicole Barandun-Gross</b></p>
             </div>
-            <div class="vpt-addressant w-1/2">
-                <p>
-                    <p class="text-xs">An den Präsidenten der Handelskammer und Arbeitgebervereinigung Winterthur</p>
-                    <p class="mt-1"><b>Thomas Anwander</b></p>
-                </p>
+            <div class="vpt-addressant md:w-1/2 w-full">
+                <p class="text-xs">An den Präsidenten der Handelskammer und Arbeitgebervereinigung Winterthur</p>
+                <p class="mt-1"><b>Thomas Anwander</b></p>
             </div>
         </div>
         <div class="vpt-letter mb-8">
