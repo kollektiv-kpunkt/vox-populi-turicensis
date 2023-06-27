@@ -8,7 +8,7 @@ return [
      */
 
     "site" => [
-        "title" => "Unterschreibe unsere Petition",
+        "title" => "Unterschreibe unseren Protestbrief!",
         "masthead" => "Volksentscheide müssen akzeptiert werden",
         "url" => "https://www.volksentscheide-respektieren.ch",
         "description" => "Die Rechten können es nicht lassen: Mit haltlosen Rekursen wollen sie die Einführung des Mindeslohns verhindern. Und das trotz klarem JA Resultat! Ich habe deshalb gerade einen Brief unterschrieben. Machst du auch mit?",
