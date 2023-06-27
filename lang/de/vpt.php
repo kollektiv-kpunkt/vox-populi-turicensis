@@ -80,8 +80,8 @@ return [
     "share" => [
         "title" => "Hilf mit und teile unseren Brief!",
         "sharetitle" => "Volksentscheide müssen akzeptiert werden: Unterschreibe jetzt unseren offenen Brief! ",
-        "text" => "Hoi👋\nDer Gewerbeverband und die Arbeitgebervereinigung können es nicht lassen: Mit haltlosen und unnützen Rekursen wollen sie die Einführung des Mindeslohns verzögern. Und das trotz klarem JA Resultat! Ich habe deshalb gerade einen Brief unterschrieben. Machst du auch mit?📝\n👉 https://volksentscheide-respektieren.ch",
-        "tweet" => "Die Rechten können es nicht lassen: Mit haltlosen Rekursen wollen sie die Einführung des Mindeslohns verzögern. Und das trotz klarem JA Resultat! Ich habe deshalb gerade einen Brief unterschrieben. Machst du auch mit?📝\n#DemokratieRespektieren 👉 https://volksentscheide-respektieren.ch",
+        "text" => "Hoi👋\nDer Gewerbeverband und die Arbeitgebervereinigung können es nicht lassen: Mit haltlosen und unnützen Rekursen wollen sie die Einführung des Mindestlohns verzögern. Und das trotz klarem JA Resultat! Ich habe deshalb gerade einen Brief unterschrieben. Machst du auch mit?📝\n👉 https://volksentscheide-respektieren.ch",
+        "tweet" => "Die Rechten können es nicht lassen: Mit haltlosen Rekursen wollen sie die Einführung des Mindestlohns verzögern. Und das trotz klarem JA Resultat! Ich habe deshalb gerade einen Brief unterschrieben. Machst du auch mit?📝\n#DemokratieRespektieren 👉 https://volksentscheide-respektieren.ch",
         "buttons" => [
             "whatsapp" => "Auf WhatsApp teilen",
             "telegram" => "Auf Telegram teilen",
