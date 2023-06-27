@@ -1,0 +1,22 @@
+@import "./fonts/fonts.scss";
+
+html {
+    font-family: "HelveticaNeue";
+    font-size: clamp(16px, 1.5vw, 22px);
+    line-height: 1.35;
+    font-weight: 400;
+
+    p+p {
+        margin-top: 1rem;
+    }
+
+    b,
+    strong {
+        font-weight: 800;
+    }
+
+    .vpt-adieu {
+        font-family: "Adieu";
+        text-transform: uppercase;
+    }
+}
