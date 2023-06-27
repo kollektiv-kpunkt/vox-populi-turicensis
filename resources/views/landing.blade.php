@@ -9,6 +9,11 @@ $parser = new Illuminate\Support\Str;
                 <p>{{__("vpt.form.successmessage")}}</p>
             </div>
         @endif
+        @if($errors->any())
+        <div class="vpt-page-heroine__alert--error bg-red-200 border-red-700 border text-red-700 font-bold p-4 mb-6 sticky top-0 z-50">
+            <p>{{__("vpt.form.errormessage")}}</p>
+        </div>
+        @endif
         <h1 class="text-3xl md:text-4xl lg:text-5xl text-center vpt-adieu mb-4">Volksentscheide respektieren!</h1>
         <div class="vpt-addressants flex gap-12 md:flex-nowrap flex-wrap mb-8">
             <div class="vpt-addressant w-1/2">

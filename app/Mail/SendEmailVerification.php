@@ -34,8 +34,8 @@ class SendEmailVerification extends Mailable
         return new Envelope(
             subject: __("vpt.email.subject"),
             from: new Address(
-                __("vpt.email.from.address'),
-                __("vpt.email.from.name')
+                __("vpt.email.from.address"),
+                __("vpt.email.from.name")
             ),
         );
     }

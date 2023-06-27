@@ -10,10 +10,10 @@ return [
     "site" => [
         "title" => "Unterschreibe unsere Petition",
         "masthead" => "Volksentscheide müssen akzeptiert werden",
-        "url" => "https://www.stop-rammstein.ch",
+        "url" => "https://www.volksentscheide-akzeptieren.ch",
     ],
     "form" => [
-        "title" => "Unterschreibe den Brief!",
+        "title" => "Füge deinen Namen hinzu!",
         "defaultPrivacy" => "Ich bin einverstanden, dass mich das Komitee auf dem Laufenden hält. <a class=\"underline\" href=\"/privacy\">Mehr dazu in unseren Datenschutzbestimmungen</a>.",
         "fields" => [
             [
