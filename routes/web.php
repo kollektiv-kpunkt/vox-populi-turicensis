@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\SupporterController;
+use App\Http\Controllers\ShareController;
 use Illuminate\Support\Facades\Route;
 use App\Models\Supporter;
 
@@ -19,10 +20,21 @@ Route::get('/', function () {
     return view('landing');
 })->name('landing');
 
+Route::get('/danke', function () {
+    if (request()->session()->get('supporter') == null) {
+        return redirect('/');
+    }
+    return view('thx', [
+        'supporter' => request()->session()->get('supporter')
+    ]);
+})->name('thx');
+
 Route::get("s/{source}", function($source) {
     setcookie("vpt_source", $source, time() + (86400 * 5), "/");
     return redirect("/");
 });
+
+Route::get("share/{platform}", [ShareController::class, "share"])->name("share");
 
 Route::post('supporters', [SupporterController::class, 'storeFromPetition'])->name('supporters.storeFromPetition');
 

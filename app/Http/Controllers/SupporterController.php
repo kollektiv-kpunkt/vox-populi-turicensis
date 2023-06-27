@@ -15,7 +15,15 @@ class SupporterController extends Controller
      */
     public function index()
     {
-        //
+        $supporters = supporters();
+        $publicData = [];
+        foreach ($supporters as $supporter) {
+            $publicData[$supporter->id] = [
+                "fname" => $supporter->data["fname"],
+                "lname" => $supporter->data["lname"],
+            ];
+        }
+        return response()->json($publicData);
     }
 
     /**
@@ -103,8 +111,8 @@ class SupporterController extends Controller
         ]);
         $validated["email_verification_token"] = Str::random(32);
         $supporter = Supporter::create($validated);
-        $supporter->sendEmailVerificationNotification();
-        $request->session()->flash('success', true);
-        return redirect()->route("landing");
+        $supporter->sendThxEmail();
+        $request->session()->put('supporter', $supporter);
+        return redirect()->route("thx");
     }
 }

@@ -42,7 +42,7 @@ class Supporter extends Model
     /**
      * Send a notification to the user to verify their email address
      */
-    public function sendEmailVerificationNotification()
+    public function sendThxEmail()
     {
         try {
             Mail::to($this->email)->send(new SendEmailVerification($this));

@@ -43,7 +43,15 @@ return [
                 "required" => false,
                 "checked" => true,
                 "class" => "fullwidth"
-            ]
+            ],
+            [
+                "type" => "checkbox",
+                "name" => "public",
+                "label" => "Mein Name darf auf der Webseite veröffentlicht werden.",
+                "required" => false,
+                "checked" => true,
+                "class" => "fullwidth"
+            ],
         ],
         "open" => "Jetzt unterschreiben!",
         "close" => "Schliessen",
@@ -52,7 +60,6 @@ return [
         "errormessage" => "Es ist ein Fehler aufgetreten. Bitte versuche es nochmals!"
     ],
     "email" => [
-        "subject" => "Bitte bestätige deine E-Mail Adresse.",
         "from" => [
             "name" => "Komitee «Volksentscheide akzeptieren!»",
             "address" => env('MAIL_FROM_ADDRESS')

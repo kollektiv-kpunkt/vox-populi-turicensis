@@ -41,7 +41,18 @@ $parser = new Illuminate\Support\Str;
             @endphp
         </div>
         <x-initial-signer />
-        <p id="show-all-signers" class="underline cursor-pointer mt-4 mb-12">und {{ supporterCount() - 10 }} weitere Unterzeichnende</p>
+        @if (supporterCount() > 10)
+            <div class="vpt-all-signers mt-4 mb-12" x-data="{open: false}">
+                <p class="underline cursor-pointer" x-on:click="open = ! open">und {{ supporterCount() }} weitere Unterzeichnende</p>
+                <div class="vpt-signers-list mt-4" x-show="open">
+                    @foreach (supporters() as $supporter)
+                        <span class="cpt-signer">
+                            {{ $supporter->data["fname"] . " " . $supporter->data["lname"] }}@if (!$loop->last),@endif
+                        </span>
+                    @endforeach
+                </div>
+            </div>
+        @endif
         <x-social-share/>
     </div>
 </x-app-layout>

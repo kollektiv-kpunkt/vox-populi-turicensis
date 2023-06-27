@@ -20,10 +20,6 @@ function supporters($number = 0)
  */
 function supporterCount()
 {
-    $count = Supporter::getActiveSupporters(Supporter::query())->count();
-    if ($count < 40) {
-        return 37;
-    }
     return Supporter::getActiveSupporters(Supporter::query())->count();
 }
 

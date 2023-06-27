@@ -32,7 +32,7 @@ class SendEmailVerification extends Mailable
     public function envelope()
     {
         return new Envelope(
-            subject: __("vpt.email.subject"),
+            subject: "Danke, " . $this->supporter->data["fname"] . "!",
             from: new Address(
                 __("vpt.email.from.address"),
                 __("vpt.email.from.name")

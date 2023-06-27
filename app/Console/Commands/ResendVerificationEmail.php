@@ -33,7 +33,7 @@ class ResendVerificationEmail extends Command
             ->where('verification_email_count', '<', 2)
             ->get();
         foreach ($supporters as $supporter) {
-            $supporter->sendEmailVerificationNotification();
+            $supporter->sendThxEmail();
             $supporter->verification_email_count++;
             $supporter->save();
         }
