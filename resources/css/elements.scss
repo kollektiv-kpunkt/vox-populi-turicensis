@@ -12,7 +12,7 @@
     border: 0.5px solid theme('colors.white');
     border-top: 10px solid theme('colors.white');
     padding-top: calc(1.5rem - 10px) !important;
-    @apply bg-primary text-white p-2 md:p-6;
+    @apply bg-primary text-white p-4 md:p-6;
 
     @media (max-width: 767px) {
         border-top: 5px solid theme('colors.white');
