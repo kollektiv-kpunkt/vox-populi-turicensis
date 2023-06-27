@@ -31,7 +31,7 @@ function supporterPrivacyText()
     if (!isset($_COOKIE['vpt_source'])) {
         $privacyText = config('vpt.privacyStatements.default.' . App::getLocale());
     } else {
-        $privacyText = config('vpt.privacyStatements.' . $_COOKIE['sr_source'] . '.' . App::getLocale());
+        $privacyText = config('vpt.privacyStatements.' . $_COOKIE['vpt_source'] . '.' . App::getLocale());
         if ($privacyText === null) {
             $privacyText = config('vpt.privacyStatements.default.' . App::getLocale());
         }
