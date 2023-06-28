@@ -43,7 +43,7 @@ $parser = new Illuminate\Support\Str;
                 <div class="vpt-signers-list mt-4" x-show="open">
                     @foreach (supporters() as $supporter)
                         <span class="cpt-signer">
-                            {{ ucfirst($supporter->data["fname"]) . " " . ucfirst($supporter->data["lname"]) }}@if (!$loop->last),@endif
+                            {{ ucfirst(strtolower($supporter->data["fname"])) . " " . ucfirst(strtolower($supporter->data["lname"])) }}@if (!$loop->last),@endif
                         </span>
                     @endforeach
                 </div>
