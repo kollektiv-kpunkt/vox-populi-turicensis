@@ -1,3 +1,10 @@
+<?php
+$shareurl = "https://volksentscheide-respektieren.ch/share/[[PLATTFORM]]";
+if (isset($_COOKIE["vpt_source"])) {
+    $shareurl .= "?source=" . $_COOKIE["vpt_source"];
+}
+?>
+
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
 <head>
@@ -174,8 +181,8 @@ table, td { color: #203a8d; } #u_body a { color: #c00795; text-decoration: under
 
   <!--[if mso]><style>.v-button {background: transparent !important;}</style><![endif]-->
 <div align="center">
-  <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://volksentscheide-respektieren.ch/share/whatsapp" style="height:39px; v-text-anchor:middle; width:241px;" arcsize="10.5%"  stroke="f" fillcolor="#25d366"><w:anchorlock/><center style="color:#FFFFFF;font-family:arial,helvetica,sans-serif;"><![endif]-->
-    <a href="https://volksentscheide-respektieren.ch/share/whatsapp" target="_blank" class="v-button" style="box-sizing: border-box;display: inline-block;font-family:arial,helvetica,sans-serif;text-decoration: none;-webkit-text-size-adjust: none;text-align: center;color: #FFFFFF; background-color: #25d366; border-radius: 4px;-webkit-border-radius: 4px; -moz-border-radius: 4px; width:auto; max-width:100%; overflow-wrap: break-word; word-break: break-word; word-wrap:break-word; mso-border-alt: none;font-size: 16px;">
+  <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="{{str_replace("[[PLATTFORM]]", "whatsapp", $shareurl)}}" style="height:39px; v-text-anchor:middle; width:241px;" arcsize="10.5%"  stroke="f" fillcolor="#25d366"><w:anchorlock/><center style="color:#FFFFFF;font-family:arial,helvetica,sans-serif;"><![endif]-->
+    <a href="{{str_replace("[[PLATTFORM]]", "whatsapp", $shareurl)}}" target="_blank" class="v-button" style="box-sizing: border-box;display: inline-block;font-family:arial,helvetica,sans-serif;text-decoration: none;-webkit-text-size-adjust: none;text-align: center;color: #FFFFFF; background-color: #25d366; border-radius: 4px;-webkit-border-radius: 4px; -moz-border-radius: 4px; width:auto; max-width:100%; overflow-wrap: break-word; word-break: break-word; word-wrap:break-word; mso-border-alt: none;font-size: 16px;">
       <span style="display:block;padding:10px 30px;line-height:120%;"><strong><span style="line-height: 19.2px;">Auf WhatsApp teilen 💬</span></strong></span>
     </a>
   <!--[if mso]></center></v:roundrect><![endif]-->
@@ -193,8 +200,8 @@ table, td { color: #203a8d; } #u_body a { color: #c00795; text-decoration: under
 
   <!--[if mso]><style>.v-button {background: transparent !important;}</style><![endif]-->
 <div align="center">
-  <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://volksentscheide-respektieren.ch/share/telegram" style="height:39px; v-text-anchor:middle; width:232px;" arcsize="10.5%"  stroke="f" fillcolor="#0088cc"><w:anchorlock/><center style="color:#FFFFFF;font-family:arial,helvetica,sans-serif;"><![endif]-->
-    <a href="https://volksentscheide-respektieren.ch/share/telegram" target="_blank" class="v-button" style="box-sizing: border-box;display: inline-block;font-family:arial,helvetica,sans-serif;text-decoration: none;-webkit-text-size-adjust: none;text-align: center;color: #FFFFFF; background-color: #0088cc; border-radius: 4px;-webkit-border-radius: 4px; -moz-border-radius: 4px; width:auto; max-width:100%; overflow-wrap: break-word; word-break: break-word; word-wrap:break-word; mso-border-alt: none;font-size: 16px;">
+  <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="{{str_replace("[[PLATTFORM]]", "telegram", $shareurl)}}" style="height:39px; v-text-anchor:middle; width:232px;" arcsize="10.5%"  stroke="f" fillcolor="#0088cc"><w:anchorlock/><center style="color:#FFFFFF;font-family:arial,helvetica,sans-serif;"><![endif]-->
+    <a href="{{str_replace("[[PLATTFORM]]", "telegram", $shareurl)}}" target="_blank" class="v-button" style="box-sizing: border-box;display: inline-block;font-family:arial,helvetica,sans-serif;text-decoration: none;-webkit-text-size-adjust: none;text-align: center;color: #FFFFFF; background-color: #0088cc; border-radius: 4px;-webkit-border-radius: 4px; -moz-border-radius: 4px; width:auto; max-width:100%; overflow-wrap: break-word; word-break: break-word; word-wrap:break-word; mso-border-alt: none;font-size: 16px;">
       <span style="display:block;padding:10px 30px;line-height:120%;"><strong><span style="line-height: 19.2px;">Auf Telegram teilen 💬</span></strong></span>
     </a>
   <!--[if mso]></center></v:roundrect><![endif]-->
@@ -212,8 +219,8 @@ table, td { color: #203a8d; } #u_body a { color: #c00795; text-decoration: under
 
   <!--[if mso]><style>.v-button {background: transparent !important;}</style><![endif]-->
 <div align="center">
-  <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://volksentscheide-respektieren.ch/share/email" style="height:39px; v-text-anchor:middle; width:208px;" arcsize="10.5%"  stroke="f" fillcolor="#203a8d"><w:anchorlock/><center style="color:#FFFFFF;font-family:arial,helvetica,sans-serif;"><![endif]-->
-    <a href="https://volksentscheide-respektieren.ch/share/email" target="_blank" class="v-button" style="box-sizing: border-box;display: inline-block;font-family:arial,helvetica,sans-serif;text-decoration: none;-webkit-text-size-adjust: none;text-align: center;color: #FFFFFF; background-color: #203a8d; border-radius: 4px;-webkit-border-radius: 4px; -moz-border-radius: 4px; width:auto; max-width:100%; overflow-wrap: break-word; word-break: break-word; word-wrap:break-word; mso-border-alt: none;font-size: 16px;">
+  <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="{{str_replace("[[PLATTFORM]]", "email", $shareurl)}}" style="height:39px; v-text-anchor:middle; width:208px;" arcsize="10.5%"  stroke="f" fillcolor="#203a8d"><w:anchorlock/><center style="color:#FFFFFF;font-family:arial,helvetica,sans-serif;"><![endif]-->
+    <a href="{{str_replace("[[PLATTFORM]]", "email", $shareurl)}}" target="_blank" class="v-button" style="box-sizing: border-box;display: inline-block;font-family:arial,helvetica,sans-serif;text-decoration: none;-webkit-text-size-adjust: none;text-align: center;color: #FFFFFF; background-color: #203a8d; border-radius: 4px;-webkit-border-radius: 4px; -moz-border-radius: 4px; width:auto; max-width:100%; overflow-wrap: break-word; word-break: break-word; word-wrap:break-word; mso-border-alt: none;font-size: 16px;">
       <span style="display:block;padding:10px 30px;line-height:120%;"><strong><span style="line-height: 19.2px;">Per E-Mail teilen 💬</span></strong></span>
     </a>
   <!--[if mso]></center></v:roundrect><![endif]-->

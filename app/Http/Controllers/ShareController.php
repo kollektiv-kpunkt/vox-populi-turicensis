@@ -14,10 +14,18 @@ class ShareController extends Controller
         }
         $tracker = new TrackerProvider();
         $tracker->doTrackEvent("Share", "Share", $platform);
-        $shareUrl = urlencode(request()->fullUrl());
+        $shareUrl = __("vpt.site.url");
+        if ((isset($_GET["source"]) && $_GET["source"] != "") || (isset($_COOKIE["vpt_source"]) && $_COOKIE["vpt_source"] != "")) {
+            $source = isset($_GET["source"]) ? $_GET["source"] : $_COOKIE["vpt_source"];
+            $shareUrl .= "/s/{$source}";
+            $shareText = str_replace("https://volksentscheide-respektieren.ch", $shareUrl, __("vpt.share.text"));
+        } else {
+            $shareText = __("vpt.share.text");
+        }
+        $sharerUrl = urlencode($shareUrl);
+        $shareText = urlencode($shareText);
         $shareTitle = urlencode(__("vpt.share.sharetitle"));
         $shareTitleEmail = str_replace("+", "%20", $shareTitle);
-        $shareText = urlencode(__("vpt.share.text"));
         $shareTweet = urlencode(__("vpt.share.tweet"));
         $shareTextEmail = str_replace("+", "%20", $shareText);
         $sep = urlencode("\n");
