@@ -47,5 +47,10 @@ return [
             Ich bin einverstanden, dass mich Caritas Zürich auf dem Laufenden hält. <a class="underline" href="https://www.caritas-zuerich.ch/datenschutz" target="_blank">Mehr dazu in unseren Datenschutzbestimmungen</a>.
             EOD,
         ],
+        "juso" => [
+            "de" => <<<EOD
+            Ich bin einverstanden, dass mich die JUSO auf dem Laufenden hält. <a class="underline" href="https://www.juso.ch/datenschutz" target="_blank">Mehr dazu in unseren Datenschutzbestimmungen</a>.
+            EOD,
+        ],
     ]
 ];
