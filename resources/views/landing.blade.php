@@ -43,7 +43,18 @@ $parser = new Illuminate\Support\Str;
                 <div class="vpt-signers-list mt-4" x-show="open">
                     @foreach (supporters() as $supporter)
                         <span class="cpt-signer">
-                            {{ ucfirst(strtolower($supporter->data["fname"])) . " " . ucfirst(strtolower($supporter->data["lname"])) }}@if (!$loop->last),@endif
+                            @php
+                                $firstnames = explode(" ", $supporter->data["fname"]);
+                                $lastnames = explode(" ", $supporter->data["lname"]);
+                                foreach ($firstnames as $key => $firstname) {
+                                    $firstnames[$key] = ucfirst(strtolower($firstname));
+                                }
+                                foreach ($lastnames as $key => $lastname) {
+                                    $lastnames[$key] = ucfirst(strtolower($lastname));
+                                }
+                                $formattedName = implode(" ", $firstnames) . " " . implode(" ", $lastnames);
+                            @endphp
+                            {{ $formattedName }}@if (!$loop->last),@endif
                         </span>
                     @endforeach
                 </div>
