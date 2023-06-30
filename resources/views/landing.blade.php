@@ -3,6 +3,12 @@ $parser = new Illuminate\Support\Str;
 ?>
 <x-app-layout :title="__('vpt.site.masthead')">
     <div class="vpt-container vpt-container__md">
+        <div class="vpt-lang-switcher flex flex-wrap gap-2 text-sm underline justify-center mb-6 opacity-50">
+            <span><a href="/de">DE</a></span>
+            <span><a href="/es">ES</a></span>
+            <span><a href="/it">IT</a></span>
+            <span><a href="/pt">PT</a></span>
+        </div>
         <x-app-logo class="w-32 m-auto mb-8 block"/>
         @if (request()->session()->get('success') === true)
             <div class="vpt-page-heroine__alert--success bg-green-200 border-green-700 border text-green-700 font-bold p-4 mb-6 sticky top-0 z-50">
