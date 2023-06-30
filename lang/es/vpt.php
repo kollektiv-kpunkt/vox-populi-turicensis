@@ -62,7 +62,7 @@ return [
         ],
         "open" => "Jetzt unterschreiben!",
         "close" => "Schliessen",
-        "submit" => "Unterschreiben",
+        "submit" => "Firmar",
         "successmessage" => "Vielen Dank für deine Unterschrift! Du erhältst in Kürze eine E-Mail mit einem Bestätigungslink. Bitte klicke auf diesen Link, um deine Unterschrift zu bestätigen.",
         "errormessage" => "Es ist ein Fehler aufgetreten. Bitte versuche es nochmals!"
     ],

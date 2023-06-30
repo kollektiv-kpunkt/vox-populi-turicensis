@@ -34,6 +34,12 @@ Route::get("s/{source}", function($source) {
     return redirect("/");
 });
 
+Route::get("s/{source}/{locale}", function($source, $locale) {
+    setcookie("vpt_source", $source, time() + (86400 * 5), "/");
+    setcookie("locale", $locale, time() + (86400 * 5), "/");
+    return redirect("/");
+})->where('locale', 'de|es|it|pt');
+
 
 Route::get("{locale}", function($locale) {
     setcookie("locale", $locale, time() + (86400 * 5), "/");
