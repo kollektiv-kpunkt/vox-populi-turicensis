@@ -34,6 +34,12 @@ Route::get("s/{source}", function($source) {
     return redirect("/");
 });
 
+
+Route::get("{locale}", function($locale) {
+    setcookie("locale", $locale, time() + (86400 * 5), "/");
+    return redirect("/");
+})->where('locale', 'de|es|it');
+
 Route::get("share/{platform}", [ShareController::class, "share"])->name("share");
 
 Route::post('supporters', [SupporterController::class, 'storeFromPetition'])->name('supporters.storeFromPetition');
