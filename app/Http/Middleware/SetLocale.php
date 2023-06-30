@@ -18,7 +18,7 @@ class SetLocale
      */
     public function handle(Request $request, Closure $next)
     {
-        $available_locales = ["de", "es", "it"];
+        $available_locales = ["de", "es", "it", "pt"];
         $browser_lang = substr($request->server("HTTP_ACCEPT_LANGUAGE"), 0, 2);
         if (isset($_COOKIE["locale"]) && in_array($_COOKIE["locale"], $available_locales)) {
             $locale = $_COOKIE["locale"];
