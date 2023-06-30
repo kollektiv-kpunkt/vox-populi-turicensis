@@ -69,11 +69,11 @@ return [
     "letter" => [
         "addressants" => [
             [
-                "upperline" => "An die Präsidentin des Gewerbeverbandes der Stadt Zürich",
+                "upperline" => "Alla Presidente dell’associazione di categoria della città di Zurigo",
                 "person" => "Nicole Barandun-Gross"
             ],
             [
-                "upperline" => "An den Präsidenten der Handelskammer und Arbeitgebervereinigung Winterthur",
+                "upperline" => "Al Presidente della Camera di commercio e del sindacato padronale di Winterthur",
                 "person" => "Thomas Anwander"
             ],
         ],
