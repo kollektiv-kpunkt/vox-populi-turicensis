@@ -8,16 +8,16 @@ return [
      */
 
     "site" => [
-        "title" => "Unterschreibe unseren Protestbrief!",
-        "masthead" => "Volksentscheide müssen akzeptiert werden",
+        "title" => "¡Firma nuestra carta de protesta!",
+        "masthead" => "¡RESPETEN EL RESULTADO DEL REFERÉNDUM!",
         "url" => "https://www.volksentscheide-respektieren.ch",
         "description" => "Die Rechten können es nicht lassen: Mit haltlosen Rekursen wollen sie die Einführung des Mindeslohns verhindern. Und das trotz klarem JA Resultat! Ich habe deshalb gerade einen Brief unterschrieben. Machst du auch mit?",
     ],
     "landing" => [
-        "title" => "Volksentscheide respektieren!",
+        "title" => "¡RESPETEN EL RESULTADO DEL REFERÉNDUM!",
         "teaser" => [
-            "title" => "Akzeptieren Sie demokratische Entscheide, Frau Barandun und Herr Anwander!",
-            "content" => "Wir haben abgestimmt. Und die Stimmbevölkerung hat sich entschieden. Doch der Gewerbeverband und die Arbeitgebervereinigung wollen die Volksentscheide nicht akzeptieren. Mit haltlosen Rekursen versuchen sie die Einführung der Mindestlöhne in Zürich und Winterthur um Jahre zu verzögern. <b>So funktioniert unsere Demokratie nicht!</b> Mit diesem Brief fordern wir sie dazu auf, ihre Niederlage zu akzeptieren und demokratische Rechte nicht weiter zu missbrauchen."
+            "title" => "¡Acepten las decisiones democráticas, señora Barandun y señor Anwander!",
+            "content" => "Hemos votado. Y los votantes han tomado una decisión. Pero la Asociación de Comerciantes y la patronal no quieren aceptar el resultado del referéndum. Mediante recursos infundados, intentan retrasar durante años la introducción del salario mínimo en Zúrich y Winterthur. <b>¡Así no es como funciona nuestra democracia!</b> Por la presente, les instamos a aceptar su derrota y no seguir abusando de los derechos democráticos."
         ]
     ],
     "form" => [
@@ -27,19 +27,19 @@ return [
             [
                 "type" => "text",
                 "name" => "data[fname]",
-                "label" => "Vorname",
+                "label" => "NOMBRE",
                 "required" => true
             ],
             [
                 "type" => "text",
                 "name" => "data[lname]",
-                "label" => "Nachname",
+                "label" => "APELLIDOS",
                 "required" => true
             ],
             [
                 "type" => "email",
                 "name" => "email",
-                "label" => "E-Mail Adresse",
+                "label" => "DIRECCIÓN DE CORREO ELECTRÓNICO",
                 "required" => true,
                 "class" => "fullwidth"
             ],
@@ -54,7 +54,7 @@ return [
             [
                 "type" => "checkbox",
                 "name" => "public",
-                "label" => "Mein Name darf auf der Webseite veröffentlicht werden.",
+                "label" => "Mi nombre puede publicarse en el sitio web.",
                 "required" => false,
                 "checked" => true,
                 "class" => "fullwidth"
@@ -69,11 +69,11 @@ return [
     "letter" => [
         "addressants" => [
             [
-                "upperline" => "An die Präsidentin des Gewerbeverbandes der Stadt Zürich",
+                "upperline" => "A la presidenta de la Asociación de Comerciantes de la ciudad de Zúrich",
                 "person" => "Nicole Barandun-Gross"
             ],
             [
-                "upperline" => "An den Präsidenten der Handelskammer und Arbeitgebervereinigung Winterthur",
+                "upperline" => "A los presidentes de la Cámara de Comercio y la patronal de Winterthur",
                 "person" => "Thomas Anwander"
             ],
         ],
@@ -92,16 +92,16 @@ return [
         ]
     ],
     "thx" => [
-        "title" => "Danke für deine Unterschrift, [fname]!",
+        "title" => "Gracias por tu firma, [fname]!",
         "content" => [
-            "<b>Danke, dass du unseren Brief unterschrieben hast, [fname]!</b> Zusammen können wir es schaffen, Druck auf den Gewerbeverband und die Arbeitgebervereinigung aufzubauen.",
-            "Damit wir möglichst viele Menschen erreichen, sind wir auf deine Hilfe angewiesen! <b>Kannst du unseren Brief in deinem Umfeld teilen?</b> Danke für deine Hilfe!"
+            "<b>Muchas gracias por firmar nuestra carta, [fname]!</b> Juntos podemos lograr presionar al gremio ya la patronal.",
+            "Necesitamos tu ayuda para llegar al mayor número de personas posible. <b>¿Puede compartir nuestra carta con quienes le rodean?</b> ¡Gracias por tu ayuda!"
         ],
-        "home" => "Zurück zur Startseite"
+        "home" => "Volver a la página principal"
     ],
     "email" => [
         "from" => [
-            "name" => "Komitee «Volksentscheide akzeptieren!»",
+            "name" => "Comité «Respetar los referendos»",
             "address" => env('MAIL_FROM_ADDRESS')
         ]
     ],
@@ -120,14 +120,14 @@ return [
     "share" => [
         "title" => "Hilf mit und teile unseren Brief!",
         "sharetitle" => "Volksentscheide müssen akzeptiert werden: Unterschreibe jetzt unseren offenen Brief! ",
-        "text" => "Hoi👋\nDer Gewerbeverband und die Arbeitgebervereinigung können es nicht lassen: Mit haltlosen und unnützen Rekursen wollen sie die Einführung des Mindestlohns verzögern. Und das trotz klarem JA Resultat! Ich habe deshalb gerade einen Brief unterschrieben. Machst du auch mit?📝\n👉 https://volksentscheide-respektieren.ch",
+        "text" => "Olá👋\nA associação comercial e a associação patronal não aceitam os resultados: Querem atrasar a introdução do salário mínimo através de recursos infundados e inúteis. E isto apesar de um claro SIM nas urnas! Por isso, acabei de assinar uma carta. Também queres assinar?📝\n👉 https://volksentscheide-respektieren.ch",
         "tweet" => "Die Rechten können es nicht lassen: Mit haltlosen Rekursen wollen sie die Einführung des Mindestlohns verzögern. Und das trotz klarem JA Resultat! Ich habe deshalb gerade einen Brief unterschrieben. Machst du auch mit?📝\n#DemokratieRespektieren 👉 https://volksentscheide-respektieren.ch",
         "buttons" => [
-            "whatsapp" => "Auf WhatsApp teilen",
-            "telegram" => "Auf Telegram teilen",
-            "facebook" => "Auf Facebook teilen",
-            "twitter" => "Auf Twitter teilen",
-            "email" => "Per E-Mail teilen"
+            "whatsapp" => "Compartir por WhatsApp",
+            "telegram" => "Compartir por Telegram",
+            "facebook" => "Compartir en Facebook",
+            "twitter" => "Compartir en Twitter",
+            "email" => "Compartir por correo electrónico",
         ]
     ]
 ];
