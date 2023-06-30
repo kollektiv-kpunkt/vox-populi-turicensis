@@ -11,7 +11,7 @@ return [
         "title" => "¡Firma nuestra carta de protesta!",
         "masthead" => "¡RESPETEN EL RESULTADO DEL REFERÉNDUM!",
         "url" => "https://www.volksentscheide-respektieren.ch",
-        "description" => "Die Rechten können es nicht lassen: Mit haltlosen Rekursen wollen sie die Einführung des Mindeslohns verhindern. Und das trotz klarem JA Resultat! Ich habe deshalb gerade einen Brief unterschrieben. Machst du auch mit?",
+        "description" => "A associação comercial e a associação patronal não aceitam os resultados: Querem atrasar a introdução do salário mínimo através de recursos infundados e inúteis. E isto apesar de um claro SIM nas urnas! Por isso, acabei de assinar uma carta. Também queres assinar?",
     ],
     "landing" => [
         "title" => "¡RESPETEN EL RESULTADO DEL REFERÉNDUM!",
