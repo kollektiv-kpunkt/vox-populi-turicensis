@@ -37,7 +37,7 @@ Route::get("s/{source}", function($source) {
 
 Route::get("{locale}", function($locale) {
     setcookie("locale", $locale, time() + (86400 * 5), "/");
-    return redirect("/");
+    return view('landing');
 })->where('locale', 'de|es|it|pt');
 
 Route::get("share/{platform}", [ShareController::class, "share"])->name("share");
