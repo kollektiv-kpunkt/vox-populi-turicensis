@@ -1,0 +1,9 @@
+**Il 18 giugno 2023 nelle città di Zurigo e Winterthur quasi sette elettrici ed elettori su dieci hanno votato a favore di un salario minimo.** Il popolo ha deciso con un’approvazione da record: diecimila persone impiegate in entrambe le città con salari sottocosto a partire da gennaio 2024 potranno finalmente ricevere un salario sufficiente per vivere. Gli aumenti salariali sono necessari con urgenza, dal momento che gli affitti e i premi delle casse malati continuano a salire senza sosta.
+
+**Invece di rispettare le decisioni democratiche e consentire salari dignitosi, il vostro intento è quello di ostacolarli con strumenti legali e procedure di ricorso di lunga data.** Così facendo non solo date prova della vostra incapacità di perdere, **ma dimostrate soprattutto di saper accettare le decisioni democratiche solo quando vi fanno comodo.**
+
+In quanto promotrici e promotori delle iniziative popolari «Un salario sufficiente per vivere», prima ancora di procedere alla raccolta firme i sindacati hanno effettuato un esame legale per verificare l’ammissibilità dei salari minimi comunali. Le città di Winterthur e Zurigo hanno commissionato un secondo parere legale indipendente che giunge alla medesima conclusione. **I vostri ricorsi sono legalmente infondati e di conseguenza senza alcuna speranza di successo.** È evidente che l’unico vostro interesse è continuare a sfruttare per ancora qualche anno le persone di Zurigo e Winterthur impiegate con salari sottocosto.
+
+Vi esortiamo a rispettare la volontà popolare. **Ritirate il vostro ricorso destinato a fallire per la città di Zurigo e annullate questo piano anche a Winterthur!** La violazione dei diritti democratici non fa altro che compromettere la democrazia e rafforzare lo scontento nei confronti della politica.
+
+**Con il rispetto che vi è dovuto,**

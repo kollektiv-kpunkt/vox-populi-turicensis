@@ -9,6 +9,9 @@ return [
             "pt" => <<<EOD
             Concordo que a GBKZ e a Unia continuem a mandar-me informações. <a class="underline" href="https://www.lohnzumleben-zuerich.ch/datenschutz" target="_blank">Pode ler mais na nossa política de privacidade</a>.
             EOD,
+            "it" => <<<EOD
+            Acconsento a ricevere aggiornamenti da parte dell’Unione sindacale del canton Zurigo (GBKZ) e di Unia. <a class="underline" href="https://www.lohnzumleben-zuerich.ch/datenschutz" target="_blank">Maggiori informazioni al riguardo sono disponibili nella nostra Informativa sulla protezione dei dati.</a>.
+            EOD,
         ],
         "unia" => [
             "de" => <<<EOD
@@ -16,6 +19,9 @@ return [
             EOD,
             "pt" => <<<EOD
             Concordo que a Unia continue a mandar-me informações. <a class="underline" href="https://www.unia.ch/de/datenschutz" target="_blank">Pode ler mais na nossa política de privacidade</a>.
+            EOD,
+            "it" => <<<EOD
+            Acconsento a ricevere aggiornamenti da parte di Unia. <a class="underline" href="https://www.unia.ch/de/datenschutz" target="_blank">Maggiori informazioni al riguardo sono disponibili nella nostra Informativa sulla protezione dei dati.</a>.
             EOD,
         ],
         "gbkz" => [
@@ -25,6 +31,9 @@ return [
             "pt" => <<<EOD
             Concordo que a GBKZ continue a mandar-me informações. <a class="underline" href="https://www.gbkz.ch/?id=416" target="_blank">Pode ler mais na nossa política de privacidade</a>.
             EOD,
+            "it" => <<<EOD
+            Acconsento a ricevere aggiornamenti da parte dell’Unione sindacale del canton Zurigo (GBKZ). <a class="underline" href="https://www.gbkz.ch/?id=416" target="_blank">Maggiori informazioni al riguardo sono disponibili nella nostra Informativa sulla protezione dei dati.</a>.
+            EOD,
         ],
         "spzuerich" => [
             "de" => <<<EOD
@@ -32,6 +41,9 @@ return [
             EOD,
             "pt" => <<<EOD
             Concordo que a SP continue a mandar-me informações. <a class="underline" href="https://zuerich.spkantonzh.ch/datenschutz/" target="_blank">Pode ler mais na nossa política de privacidade</a>.
+            EOD,
+            "it" => <<<EOD
+            Acconsento a ricevere aggiornamenti da parte del Partito Socialista (SP). <a class="underline" href="https://zuerich.spkantonzh.ch/datenschutz/" target="_blank">Maggiori informazioni al riguardo sono disponibili nella nostra Informativa sulla protezione dei dati.</a>.
             EOD,
         ],
         "spkanton" => [
@@ -51,6 +63,9 @@ return [
             "pt" => <<<EOD
             Concordo que os Verdes continuem a mandar-me informações. <a class="underline" href="https://gruene.ch/datenschutz" target="_blank">Pode ler mais na nossa política de privacidade</a>.
             EOD,
+            "it" => <<<EOD
+            Acconsento a ricevere aggiornamenti da parte dei Verdi. <a class="underline" href="https://gruene.ch/datenschutz" target="_blank">Maggiori informazioni al riguardo sono disponibili nella nostra Informativa sulla protezione dei dati.</a>.
+            EOD,
         ],
         "al" => [
             "de" => <<<EOD
@@ -58,6 +73,9 @@ return [
             EOD,
             "pt" => <<<EOD
             Concordo que a Alternative Liste continue a mandar-me informações. <a class="underline" href="https://www.al-zh.ch/datenschutz" target="_blank">Pode ler mais na nossa política de privacidade</a>.
+            EOD,
+            "it" => <<<EOD
+            Acconsento a ricevere aggiornamenti da parte della Alternative Liste. <a class="underline" href="https://www.al-zh.ch/datenschutz" target="_blank">Maggiori informazioni al riguardo sono disponibili nella nostra Informativa sulla protezione dei dati.</a>.
             EOD,
         ],
         "caritas" => [
@@ -67,6 +85,9 @@ return [
             "pt" => <<<EOD
             Concordo que a Caritas Zürich continue a mandar-me informações. <a class="underline" href="https://www.caritas-zuerich.ch/datenschutz" target="_blank">Pode ler mais na nossa política de privacidade</a>.
             EOD,
+            "it" => <<<EOD
+            Acconsento a ricevere aggiornamenti da parte della Caritas Zürich. <a class="underline" href="https://www.caritas-zuerich.ch/datenschutz" target="_blank">Maggiori informazioni al riguardo sono disponibili nella nostra Informativa sulla protezione dei dati.</a>.
+            EOD,
         ],
         "juso" => [
             "de" => <<<EOD
@@ -74,6 +95,9 @@ return [
             EOD,
             "pt" => <<<EOD
             Concordo que a JUSO continue a mandar-me informações. <a class="underline" href="https://www.juso.ch/datenschutz" target="_blank">Pode ler mais na nossa política de privacidade</a>.
+            EOD,
+            "it" => <<<EOD
+            Acconsento a ricevere aggiornamenti da parte della GISO. <a class="underline" href="https://www.juso.ch/datenschutz" target="_blank">Maggiori informazioni al riguardo sono disponibili nella nostra Informativa sulla protezione dei dati.</a>.
             EOD,
         ],
     ]
