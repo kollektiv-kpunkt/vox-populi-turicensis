@@ -8,7 +8,7 @@ return [
      */
 
     "site" => [
-        "title" => "Unterschreibe unseren Protestbrief!",
+        "title" => "Assine a nossa carta de protesto!",
         "masthead" => "Os referendos devem ser aceites",
         "url" => "https://www.volksentscheide-respektieren.ch",
         "description" => "A associação comercial e a associação patronal não aceitam os resultados: Querem atrasar a introdução do salário mínimo através de recursos infundados e inúteis. E isto apesar de um claro SIM nas urnas! Por isso, acabei de assinar uma carta. Também queres assinar?",
