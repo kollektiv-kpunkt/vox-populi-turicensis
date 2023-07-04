@@ -19,7 +19,7 @@
         <div id="vpt-main-content" class="pt-4 md:pt-8 pb-24">
             {{$slot}}
         </div>
-        <div class="vpt-footer mt-10 text-center">
+        <div class="vpt-footer mb-8 text-center underline opacity-50">
             <a href="https://www.gbkz.ch/impressum" target="_blank">Impressum</a>
         </div>
         @vite("resources/js/app.js")
