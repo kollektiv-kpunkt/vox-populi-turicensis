@@ -19,6 +19,9 @@
         <div id="vpt-main-content" class="pt-4 md:pt-8 pb-24">
             {{$slot}}
         </div>
+        <div class="vpt-footer mt-10 text-center">
+            <a href="https://www.gbkz.ch/impressum" target="_blank">Impressum</a>
+        </div>
         @vite("resources/js/app.js")
         <!-- Matomo -->
         <script>
